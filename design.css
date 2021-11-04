@@ -1,0 +1,89 @@
+.header {
+  font-size: 75px;
+  text-align: center;
+  margin-top: -10px;
+  font-style: italic;
+  opacity: 0.5;
+}
+/* body {
+  background-image: linear-gradient(to bottom, white, purple);
+  background-size:cover;
+}
+@media screen and (max-width: 3000px) and (min-width: 800px) {
+  body{
+    height: 100vh;
+  }
+}*/
+@media screen and (max-width:800px) {
+  .res{
+    font-size: 20px;
+  }
+}
+.container {
+  border: 1px solid black;
+  width: 85%;
+  background: transparent;
+  margin: auto;
+  height: 60vh;
+  margin-top: -45px;
+  overflow-y: auto;
+}
+.clear{
+  border:0;
+  margin-top: 15px;
+  height: 0;
+  padding: 20px 20px;
+  margin-left: 10px;
+  background: olive;
+  border-radius: 7px;
+  color: white;
+}
+.clearTxt{
+  margin-top: -7px;
+}
+.message {
+  background: whitesmoke;
+  /* background-image: linear-gradient(to left, white, purple); */
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  color: green;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+  clear: both;
+}
+.right {
+  float: right;
+  margin-right: 10px;
+  clear: both;
+}
+#send-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  /* max-width: 985px; */
+  width: 100%;
+}
+#message{
+  padding: 10px 5px;
+  margin-top: 5px;
+  border-radius: 7px;
+  width: 77%;
+}
+.btn {
+  margin-left: 10px;
+  background: tomato;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.btn:hover {
+  background: red;
+  color: white;
+}
