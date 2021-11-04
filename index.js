@@ -43,3 +43,6 @@ let clear=document.getElementById("clear").onclick=function(){
     firebase.database().ref("Chats").remove()
     location.reload()
 }
+let reload=document.getElementById("reload").onclick=function(){
+    location.reload()
+}

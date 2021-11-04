@@ -87,3 +87,10 @@
   background: red;
   color: white;
 }
+#reload{
+  border: 0;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 7px;
+  background-color: royalblue;
+}
